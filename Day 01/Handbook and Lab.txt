@@ -1,0 +1,72 @@
+Angular Training - Day 01
+
+***********************************************
+Syntax Handbook
+***********************************************
+
+	Variables	
+		Syntax - let variableName : dataType = value;
+				 Data Type - boolean, number, string, any
+	
+	Arrays
+		Syntax 1 - let variableName : dataType[] = {value};
+		Syntax 2 - let variableName : Array<number> = {value};
+	
+	Tuple 
+		Syntax - let variableName : [dataType,dataType];
+		
+	Enum 
+		Syntax - enum variableName { values };
+
+	Type Assertion/Convertion
+		Syntax - let variableName : dataType = <dataType> variable;		
+		
+	Interface 
+		Syntax - Interface InterfaceName { Content }
+				 class className Implements InterfaceName { content }
+				 Interface InterfaceName extends Interface { Content }
+	Class
+		Syntax - class className { Content }
+			   - class className Implements InterfaceName { Content }
+			   - class className Extends BaseClass { Content }
+			   - export class className { Content }
+			   - let obj = new className();
+			   - constructor(parameters) {}
+			   - abstract class className { Content }
+			   
+	Access Modifiers	
+			   - public, private, protected, static, readonly, const
+			   
+	Properties (Accessors)
+		Syntax - get PropertyName() : dataType { return variableName; } 
+				 set PropertyName(value: dataType) { Set logic }
+		
+	Others - 
+		this
+		super()
+		
+	Generics
+		Syntax - function functionName <T> (value : T) { content }
+		
+	Iterators 
+		Syntax - for (let variable in array ) {} // Returns array key/indexes
+			   - for (let variable of array ) {} // Returns array values
+			   
+	NameSpace 
+		Syntax - namespace namespacename {}
+
+
+***********************************************
+Lab
+***********************************************
+		
+- Create Account class
+- Create Properties
+- Create Account Type Enum
+- Create IAccount Interface	
+- Inheritance
+- Iterators
+- Namespace
+
+
+
