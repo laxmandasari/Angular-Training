@@ -1,0 +1,12 @@
+
+Handbook
+
+Git repository for quick start application - https://github.com/angular/quickstart
+	
+Steps to setup quickstart application
+
+Step 1 - Clone git repository (git clone https://github.com/angular/quickstart [app name])
+Step 2 - npm install
+Step 3 - npm start
+
+
